@@ -29,3 +29,9 @@ Compute: B1S [$6.21 p/month] or B1MS [$12.41 p/month]
 ### Entity Relationship Diagram (ERD)
 1. From any tab, press Ctrl + R to toggle Reverse Engineer
 2. Select the MySQL connection that you wish to use and click throught the prompts until a EER diagram is Generated
+
+## Errors/Challenges
+### There were two issues that I came across as I familiarized myself with SQL and the Workbench
+1. I created a table as a test and attempted to delete the table but was unable to do so. To fix this issue I had to take MySQL out of saftey update mode. To do this I entered SET SQL_SAFE_UPDATES = 0;
+2. The other issue was when I entered values into the table as a date but did so incorrectly. I learned that SQL formats dates as YYYY-MM-DD
+
